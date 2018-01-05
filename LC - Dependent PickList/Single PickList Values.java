@@ -4,8 +4,6 @@
 *
 *
 * Classe responsável por mapear Objeto (pObjName) e resgatar os valores dos PickLists
-* Dependentes entre si. Valores em certo picklist (pControllingFieldName) que têm
-* dependência em outro picklist (pDependentFieldName)
 *
 * AUTHOR: Unknown                                             DATE: 2017
 *******************************************************************************/
