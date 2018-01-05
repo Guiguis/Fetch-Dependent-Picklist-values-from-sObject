@@ -1,9 +1,14 @@
-// **********************************************************************************************************************************
-// ********** GetDependentOptions ***************************************************************************************************
-// **********************************************************************************************************************************
-// Map<String,List<String>> GetDependentOptions (String pObjName, String pControllingFieldName, String pDependentFieldName)
-// Returns: Map of "pControllingFieldName" picklist values and their corresponding "pDependentFieldName" dependent option values.
-// **********************************************************************************************************************************
+/*******************************************************************************
+*                               Guilherme Miranda - 2017
+*-------------------------------------------------------------------------------
+*
+*
+* Classe responsável por mapear Objeto (pObjName) e resgatar os valores dos PickLists
+* Dependentes entre si. Valores em certo picklist (pControllingFieldName) que têm
+* dependência em outro picklist (pDependentFieldName)
+*
+* AUTHOR: Benj Kamm                                             DATE: 2017
+*******************************************************************************/
 
 // Converts a base64 string into a list of integers representing the encoded bytes
 @AuraEnabled
